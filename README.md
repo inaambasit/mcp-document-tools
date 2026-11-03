@@ -1,6 +1,10 @@
 # Document Tools
 
-A Python package implementing a variety of document-related tools for converting and processing document formats. These tools are exposed through an MCP server interface for seamless integration with AI assistants.
+This small Python project connects local PDF and DOCX conversion to an AI assistant through MCP. Microsoft MarkItDown performs the underlying conversion; this repository provides the tool interface, path-based integration and basic fixture tests.
+
+**Scope:** trusted local prototype. It has not been validated as a hosted, multi-user or confidential-document processing service. The fixture tests check basic conversion output; they do not establish extraction fidelity, table accuracy or comprehensive edge-case handling.
+
+**Development:** AI-assisted integration work. The underlying document parser is Microsoft MarkItDown, not a new parsing engine developed in this repository.
 
 ## Setup
 
